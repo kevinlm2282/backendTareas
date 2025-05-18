@@ -22,6 +22,7 @@ exports.obtenerTareas = async (req, res) => {
         "response": tareas
       });
     } catch (error) {
+      console.log(error)
       res.status(500).json({
         "success":false,
         "status":500,
