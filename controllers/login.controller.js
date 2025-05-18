@@ -9,6 +9,7 @@ exports.login = async (req, res) => {
     req.body.contrasenia = req.body.contrasenia.trim()
     const { correo, contrasenia} = req.body;
     const user = await Usuario.findOne({where: { correo: correo} })
+    res.header('Access-Control-Allow-Origin', '*')
     if(!user){
       return res.status(400).json({
         "success":false,
