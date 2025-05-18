@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "root",
-    "database": "TaskDB",
-    "host": "127.0.0.1",
+    "username": "kevin",
+    "password": "maRahrSrVvGw1BMFewuZrL7hwkVNrBNT",
+    "database": "taskdb_ppf3",
+    "host": "dpg-d0kmruffte5s738qrun0-a",
     "dialect": "postgres"
   },
   "test": {
-    "username": "postgres",
-    "password": "root",
-    "database": "TaskDB",
-    "host": "127.0.0.1",
+    "username": "kevin",
+    "password": "maRahrSrVvGw1BMFewuZrL7hwkVNrBNT",
+    "database": "taskdb_ppf3",
+    "host": "dpg-d0kmruffte5s738qrun0-a",
     "dialect": "postgres"
   },
   "production": {
-    "username": "postgres",
-    "password": null,
-    "database": "TaskDB",
-    "host": "127.0.0.1",
+    "username": "kevin",
+    "password": "maRahrSrVvGw1BMFewuZrL7hwkVNrBNT",
+    "database": "taskdb_ppf3",
+    "host": "dpg-d0kmruffte5s738qrun0-a",
     "dialect": "postgres"
   }
 }
